@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/bg1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); 
+
+.content {
+    /* position: absolute; */
+    display: flex;
+    height:100vh;
+    
+    /* height: 500px; */
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.key {
+    border: 5px solid rgb(35, 31, 31);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 110px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 20%;
+    color: white;
+    animation: 0.3s;
+
+    flex-direction: column;
+}
+
+.pressed {
+    border: 5px solid rgb(216, 182, 48);
+    background-color: rgba(105, 31, 31, 0.4);
+    
+    /* height: 120px ;
+    width: 135px ;    */
+    padding: 5px 5px 5px 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+    color: white;
+    animation: 0.3s;
+    flex-direction: column;
+}
+ span {
+    font-size: 50px;
+    /* margin-bottom: 10px; */
+    flex: 1;   
+    font-family: 'Source Code Pro', monospace;
+}
+
+span.instrument {
+    flex:1;
+    font-size: 18px;
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.music-button {
+    border: 5px solid rgb(15, 82, 32);
+    padding: 15px 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 2%;
+    animation: 0.3s;
+
+}
+
+.music-button:hover {
+    background-color: rgba(36, 29, 233, 0.4);
+    /* color */
+    color: yellow;
+    animation: 0.3s;
+}
+
+.music-button span {
+    color: rgb(213, 213, 55);
+    font-size: 40px;
+}
