@@ -2,7 +2,7 @@
 
 ### Instructions
 
-- [Live Website](https://destroycompiler.github.io/drummer/)
+- [Live Website](https://ecxtacy.github.io/drummer/)
 
 OR 
 
